@@ -1,28 +1,58 @@
-# Angular17Boilerplate
+# Angular 17 Boilerplate Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+Welcome to the Angular 17 Boilerplate Project! This project serves as a starting point for our future Angular applications, providing a solid foundation with modern technologies.
 
-## Development server
+## Technologies Used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular 17
+- Tailwind CSS
+- Reactive Forms
 
-## Code scaffolding
+## Included Functionalities
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Basic Login
+- Screen Navigation
+- Guards
+- Project Scaffolding
 
-## Build
+## Login Credentials
+- Email: demo@demo.com
+- Password: demo12345
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## How to Use
 
-## Running unit tests
+1. **Clone the Repository:**
+   ```bash
+    git clone [https://github.com/mfuentes-mc/angular-17-boilerplate]
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. **Install Dependencies:**
+   ```bash
+    cd angular-17-boilerplate
+    npm install
 
-## Running end-to-end tests
+3. **Run the Development Server:**
+    ```bash
+    ng serve
+The application will be available at http://localhost:4200/.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Login Credentials:
 
-## Further help
+Username: demo_user
+Password: demo_password
+Use these credentials to access the basic login functionality.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# angular-17-boilerplate
+Project Structure
+src/: Contains the source code for the Angular application.
+app/: Main application components and modules.
+assets/: Static assets such as images, fonts, etc.
+styles/: Custom styles and Tailwind CSS configuration.
+angular.json: Angular project configuration file.
+tsconfig.json: TypeScript configuration file.
+package.json: NPM package configuration file.
+Contributions
+Feel free to contribute to this project by submitting pull requests. If you have any suggestions or improvements, please open an issue to discuss them.
+
+Future Additions
+In the coming months, additional features will be added in separate branches, including the implementation of NGRX, JWT authentication, and more comprehensive functionalities commonly used in our day-to-day development.
+
+We hope you find this Angular 17 Boilerplate Project useful! Happy coding!
