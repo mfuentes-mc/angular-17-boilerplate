@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PublicLayoutComponent } from './public-layout.component';
+import { ActivatedRoute } from '@angular/router';
 
 describe('PublicLayoutComponent', () => {
   let component: PublicLayoutComponent;
@@ -8,7 +9,7 @@ describe('PublicLayoutComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PublicLayoutComponent]
+      imports: [PublicLayoutComponent, ActivatedRoute]
     })
     .compileComponents();
     
